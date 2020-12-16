@@ -1,0 +1,19 @@
+body {
+	background-image: url(https://res.cloudinary.com/clemr/image/upload/v1603444442/images/background_projet_qkvcil.png);
+	font-family: 'DM Sans', sans-serif;
+}
+
+.calendrier{
+	font-family: 'DM Sans', sans-serif;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 200px;
+	margin-bottom: 25px;
+}
+
+.calendrier h3{
+	color: white;
+}

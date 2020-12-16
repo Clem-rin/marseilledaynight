@@ -1,0 +1,261 @@
+body{
+background-image: url(https://res.cloudinary.com/dnm5yx0l6/image/upload/v1603468816/background_eum34b.png);
+width: 100%;
+background-size: cover;
+background-position: center;
+height: cover;
+font-family: 'DM Sans', sans-serif;
+}
+
+.espace {
+	margin-top:30px;
+}
+
+.logo1 {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	color: white;
+	margin-top: 100px;
+}
+
+.logo1 h1{
+	font-size: 5em;
+	margin: 0;
+}
+
+.logo1 p{
+	font-size: 1.3em;
+}
+
+.cardsblocks{
+width: 65%;
+height: 500px;
+margin: 0 auto;
+}
+
+.card1vide{
+width: 20%;
+height: 500px;
+background-color: transparent;
+margin: 0;
+}
+
+.textcards{
+width: 40%;
+height: 500px;
+color: white;
+margin: 0;
+font-size: 1.7em;
+}
+
+.cardssunset{
+width: 100%;
+height: 500px;
+margin-top: 150px;
+display: flex;
+flex-direction: row;
+}
+
+.card_evenement {
+display: flex;
+flex-direction: column;
+border-top: 1px solid white;
+margin-top: 130px;
+margin-left: 50px;
+margin-right: 50px;
+}
+.cardeventday1 {
+display: flex;
+flex-direction: row;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.img_cardeventday1 {
+border-radius: 1000px;
+transition: all 0.3s ease 0s;
+cursor: pointer;
+outline: none;
+}
+.img_cardeventday1:hover {
+box-shadow: 0px 8px 15px rgba(1, 1, 1, 0.4);
+transform: translateX(+80px) translateY(+20px) scale(1.6);
+}
+.cardeventday1txt1 {
+display: flex;
+flex-direction: column;
+color: white;
+margin-left: 15px;
+padding-left: 30px;
+border-left: 1px solid white;
+}
+.titre_cardeventday1 {
+font-size: 2rem;
+text-align: center;
+}
+.cardeventday1txt2 {
+display: flex;
+flex-direction: column;
+color: white;
+margin-left: 15px;
+padding-left: 30px;
+}
+.cardeventday2 {
+display: flex;
+flex-direction: row-reverse;
+padding-top: 30px;
+padding-bottom: 30px;
+border-top: 1px solid white;
+}
+.img_cardeventday2 {
+border-radius: 1000px;
+margin-top: 5px;
+transition: all 0.3s ease 0s;
+cursor: pointer;
+outline: none;
+}
+.img_cardeventday2:hover {
+box-shadow: 0px 8px 15px rgba(1, 1, 1, 0.4);
+transform: translateX(-80px) translateY(+20px) scale(1.6);
+}
+.titre_cardeventday2 {
+font-size: 2rem;
+text-align: center;
+}
+.cardeventday2txt1 {
+display: flex;
+flex-direction: column;
+color: white;
+margin-right: 15px;
+padding-right: 30px;
+border-right: 1px solid white;
+}
+.cardeventday2txt2 {
+display: flex;
+flex-direction: column;
+color: white;
+margin-right: 15px;
+padding-right: 30px;
+}
+.cardeventday3 {
+display: flex;
+flex-direction: row;
+padding-top: 30px;
+padding-bottom: 30px;
+border-top: 1px solid white;
+}
+.img_cardeventday3 {
+border-radius: 1000px;
+margin-top: 25px;
+transition: all 0.3s ease 0s;
+cursor: pointer;
+outline: none;
+}
+.img_cardeventday3:hover {
+box-shadow: 0px 8px 15px rgba(1, 1, 1, 0.4);
+transform: translateX(+80px) translateY(+20px) scale(1.6);
+}
+.titre_cardeventday3 {
+font-size: 2rem;
+text-align: center;
+}
+.cardeventday3txt1 {
+display: flex;
+flex-direction: column;
+color: white;
+margin-left: 15px;
+padding-left: 30px;
+border-left: 1px solid white;
+}
+.cardeventday3txt2 {
+display: flex;
+flex-direction: column;
+color: white;
+margin-left: 15px;
+padding-left: 30px;
+}
+.cardeventday4 {
+display: flex;
+flex-direction: row-reverse;
+padding-top: 30px;
+padding-bottom: 30px;
+border-top: 1px solid white;
+}
+.img_cardeventday4 {
+border-radius: 1000px;
+margin-top: 60px;
+transition: all 0.3s ease 0s;
+cursor: pointer;
+outline: none;
+}
+.img_cardeventday4:hover {
+box-shadow: 0px 8px 15px rgba(1, 1, 1, 0.4);
+transform: translateX(-80px) translateY(+20px) scale(1.6);
+}
+.titre_cardeventday4 {
+font-size: 2rem;
+text-align: center;
+}
+.cardeventday4txt1 {
+display: flex;
+flex-direction: column;
+color: white;
+margin-right: 15px;
+padding-right: 30px;
+border-right: 1px solid white;
+}
+.cardeventday4txt2 {
+display: flex;
+flex-direction: column;
+color: white;
+margin-right: 15px;
+padding-right: 30px;
+}
+.cardeventday5 {
+display: flex;
+flex-direction: row;
+padding-top: 30px;
+padding-bottom: 30px;
+border-top: 1px solid white;
+}
+.img_cardeventday5 {
+border-radius: 1000px;
+margin-top: 10px;
+transition: all 0.3s ease 0s;
+cursor: pointer;
+outline: none;
+}
+.img_cardeventday5:hover {
+box-shadow: 0px 8px 15px rgba(1, 1, 1, 0.4);
+transform: translateX(+80px) translateY(+20px) scale(1.6);
+}
+.titre_cardeventday5 {
+font-size: 2rem;
+text-align: center;
+}
+.cardeventday5txt1 {
+display: flex;
+flex-direction: column;
+color: white;
+margin-left: 15px;
+padding-left: 30px;
+border-left: 1px solid white;
+}
+.cardeventday5txt2 {
+display: flex;
+flex-direction: column;
+color: white;
+margin-left: 15px;
+padding-left: 30px;
+}
+.navbar {
+color: white;
+}
+.iconify {
+width:30px;
+height:30px;
+border-radius: 50%;
+object-fit: cover;
+margin: 0 10px;
+color:white;
+}

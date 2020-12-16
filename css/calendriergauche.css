@@ -1,0 +1,125 @@
+.calendriergauche img {
+	width: 250px;
+	height: auto;
+	transition: .5s ease;
+}
+
+.calendriergauche{
+	display: flex;
+	flex-direction: row;
+	margin-right: 10px;
+}
+
+.calendriergauche img:hover {
+	opacity: 0.5;
+	transition: .5s ease;
+}
+
+.cg:hover .text{
+	transition: .5s ease;
+	opacity: 1;
+	color: white;
+}
+
+.cg{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.text{
+	position: absolute;
+	opacity: 0;
+	transition: .5s ease;
+	z-index: 2;
+}
+
+.calg1{
+	align-items: center;
+	justify-content: center;
+	width: 300px;
+	border-right: 5px solid white;
+}
+
+.calg1 img:hover {
+	transition: .5s ease;
+}
+
+.cg1{
+	padding-bottom: 20px;
+	border-bottom: 3px solid white;
+	margin-right: 15px;
+}
+
+.cg2{
+	padding-top: 5px;
+}
+
+.cg2 h3{
+	font-size: 14px;
+	border-bottom: 3px solid white;
+	margin-right: 15px;
+	padding-bottom: 94px;
+}
+
+.calg2{
+	width: 270px;
+}
+
+.cg3a{
+	margin-top: 120px;
+	margin-left: 20px;
+}
+
+.cg3{
+
+	border-top: 3px solid white;
+	padding-top: 15px;
+	border-bottom: 3px solid white;
+	padding-bottom: 20px;
+}
+
+.cg4{
+	margin-left: 20px;
+	border-bottom: 3px solid white;
+	padding-bottom: 100px;
+}
+
+.cg4 h3{
+	padding-top: 5px;
+	font-size: 14px;
+}
+
+.cg5{
+	margin-right: 15px;
+	padding-bottom: 20px;
+	border-bottom: 3px solid white;
+}
+
+.cg6{
+	margin-right: 15px;
+	padding-bottom: 40px;
+	border-bottom: 3px solid white;
+}
+
+.cg6 h3{
+	font-size: 14px;
+	padding-top: 5px;
+}
+
+.cg7a{
+	margin-left: 20px;
+	padding-top: 5px;
+}
+
+.cg7{
+	padding-bottom: 20px;
+	border-bottom: 3px solid white;
+}
+
+.cg8 h3{
+	font-size: 14px;
+	margin-left: 20px;
+	padding-top: 5px;
+}
