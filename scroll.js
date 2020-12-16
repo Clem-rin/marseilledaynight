@@ -16,7 +16,7 @@ window.addEventListener('scroll', (e) =>
 
   else /*if(y>=dayHeight && y<=heightToNight)*/ {
     heightHour = afternoonHeight/6;
-    time = Math.trunc(y / heightHour) + 14;
+    time = Math.trunc(y / heightHour) + 20;
     if (time > 23 ) { time = time - 24};
     hours.innerHTML = time + "h00";
   console.log(time);
