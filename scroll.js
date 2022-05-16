@@ -2,7 +2,6 @@ const hours = document.getElementById('hours');
 const dayHeight = document.getElementById('sunset').offsetTop;
 const heightToNight = document.getElementById('soir').offsetTop;
 const afternoonHeight = heightToNight - dayHeight;
-/*const nightHeight = document.body.offsetHeight - dayHeight - afternoonHeight;*/
 hours.innerHTML="9h00";
 window.addEventListener('scroll', (e) => 
 {
@@ -21,13 +20,4 @@ window.addEventListener('scroll', (e) =>
     hours.innerHTML = time + "h00";
   console.log(time);
   }
-
-/*  else  
-  {
-    heightHour = nightHeight / 12;
-    time = Math.trunc(y / heightHour) + 6;
-    if (time > 23 ) { time = time - 24};
-    hours.innerHTML = time + "h00";
-  console.log(time);
-  }*/
 });
